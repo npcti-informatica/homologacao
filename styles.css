@@ -12,8 +12,8 @@ h2 {
 /* Navbar */
 #navbar {
 
-    background-color:#696969;
-    color:#fff;
+    background-color:#FF8C00;
+    color:#000;
     padding: 0 15px;
     height: 90px;
 }
@@ -23,7 +23,7 @@ h2 {
 }
 
 #navbar p {
-    color:#FF8C00;
+    color:#000;
     margin: 0;
     line-height: 0px;
     margin-left: 65px;    
