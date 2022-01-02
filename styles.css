@@ -12,8 +12,8 @@ h2 {
 /* Navbar */
 #navbar {
 
-    background-color:#FF8C00;
-    color:#000;
+    background-color:#FFA500;
+    color:#fff;
     padding: 0 15px;
     height: 90px;
 }
@@ -87,7 +87,7 @@ h2 {
 /*ABOUT*/
 #about-section {
     text-align: center;
-    background-color: #696969;
+    background-color:#FFA500;
     color:#fff;
     padding: 50px;
     height: 350px;
