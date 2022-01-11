@@ -1,0 +1,171 @@
+/* CSS GERAL. RESET */
+body, p, h1, h2, h3, h4, p, span, input, textarea {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+h2 {
+    font-size: 30px;
+}
+.container {
+    max-width: 1920px;
+    width: 100%;
+}
+/* Navbar */
+#navbar {
+
+ /* position: fixed;*/
+    background-color:#FFA500;
+    color:#fff;
+    padding: 0 15px;
+    height: 90px;
+ /* height: 100px;
+    width: 100%;*/
+}
+#navbar h2, #navbar ul, #navbar-list li {
+    display: inline-block;
+}
+#navbar p {
+    color:#000;
+    margin: 0;
+    line-height: 0px;
+    margin-left: 90px;    
+}
+#navbar h2 {
+    margin: 0;
+    line-height: 60px;
+    margin-left: 90px;
+}
+
+#navbar img {
+    /*Ajustando o tamanho do logo da imagem - Inicio*/
+    width: 80px;
+    padding: 1px;
+    /*Ajustando o tamanho do logo da imagem - Fim*/
+    height: 60px;
+    position: absolute;
+    top: 10px;
+}
+
+#navbar ul {
+    float: right;
+    margin-top: -20px;
+}
+
+#navbar li {
+    margin: 0 10px;
+}
+
+#navbar-list li a {
+    text-decoration: none; /*Tirando o UnderLine do link*/
+    color: #fff;
+}
+
+#navbar-list li a:hover {
+    /*border-bottom: 1px solid #fff;*/
+    color: #000;
+    transition: 0.5s;
+}
+
+/*Banner*/
+#main-banner {
+    height: 85vh;
+    background-image: url("../img/img_npcti_banner_background.jpg");
+    background-size:cover;
+    padding-top: 1vh;
+}
+#banner-info {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: red;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.banner-info, p {
+    color: #000;
+}
+#banner-info img {
+    height: 330px;
+    /*border-radius: 50%;*/
+    /*background-color: #fff;*/
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+/*Footer - Rodape da página*/
+footer {
+    background-color: #FFA500;
+    padding-top: 5em 0;
+    padding-bottom: 40px;
+    /*border-top:5px solid #6d6d6d;*/
+}
+Footer h2,h3, footer p, footer a, footer span {
+    color: #fff;
+}
+footer h3 {
+    font-weight: 400;
+}
+footer a {
+    text-decoration: none;
+}
+footer ul {
+    padding: 0;
+}
+footer li {
+    list-style: none;
+}
+.footer-box {
+    width: 41%;
+    padding: 1%;
+    float:right;
+}
+footer .wrapper:after {
+    clear:both;
+    content: "";
+    display: block;
+}
+.company-footer {
+    width: 100%;
+}
+
+.company-footer h2 {
+    margin-top: 20%;
+}
+.company-footer h2, .company-footer p {
+    margin-bottom: 20px;
+}
+.footer-list li {
+    margin-bottom: 15px;
+}
+.footer-list a {
+    transition: 0.5s;
+}
+.footer-list a:hover {
+    color:#000;
+}
+.footer-list li:after {
+    clear: both;
+    content:"";
+    display:block;
+}
+.fab {
+    font-size: 30px;
+    margin-right: 10px;
+    float: left;
+}
+.footer-list li span {
+    float:left;
+    height: 30px;
+    line-height: 30px;
+}
+.footer-bottom {
+    border-top: 1px solid #fff;
+}
+.footer-bottom p {
+    font-weight: 150;
+    margin-top: 10px;
+    text-align: center;
+}
